@@ -1,0 +1,39 @@
+.container {
+  height: 6rem;
+  background: #141A29;
+}
+
+.content {
+  max-width: 1120px;
+  height: 6rem;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+
+  img {
+    cursor: pointer;
+  }
+
+  nav {
+    margin-left: 5rem;
+    height: 5rem;
+
+    .link {
+      display: inline-block;
+      position: relative;
+      padding: 0 0.5rem;
+      height: 5rem;
+      line-height: 5rem;
+      color: #FFF;
+
+      & + .link {
+        margin-left: 2rem;
+      }
+    }
+  }
+
+  button {
+    margin-left: auto;
+  }
+}
