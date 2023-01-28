@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Head>
         <title>
-          Boardfy - The best way to manage your tasks
+          Boardfy | The best way to manage your tasks
         </title>
       </Head>
 
